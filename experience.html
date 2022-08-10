@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Harsh's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #f5f5f5;" >
+        <div class="container-fluid" style="background-color:#f5f5f5;">
+          <a class="navbar-brand" style= "font-size: 3vw; display: flex; justify-content: center; color: rgb(0, 0, 0); width:25vw;" href="index.html">Harsh Panwar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-body">
+              <a class="nav-link"  href="background.html">Background</a>
+              <a class="nav-link " href="experience.html">Experience</a>
+              <a class="nav-link" href="projects.html">Projects</a>
+              <a class="nav-link" href="Resume.pdf">Resume</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div class="all" >
+        <div class = "sidebar">
+            <div style=" display: flex; justify-content: center;">
+                <img src="images/Headshot.jpg"  class = "headshot"></img>
+            </div>
+            
+            <div class="sidebody">
+                <div class = "loc" style="font-weight:bold ;">Math + CS @ NJIT</div>
+                <div class = "loc">
+                    <img src="images/loc.png" class="logo"></img>
+                     New Jersey, USA
+                </div>
+                <a class = "loc" href="mailto: hp56@njit.edu" style="text-decoration:none ;">
+                    <img src="images/mail.png" class="logo"></img>
+                     hp56@njit.edu
+                </a>
+                <a class = "loc" href="https://www.github.com/Harsh-Panwar000" style="text-decoration:none ;">
+                    <img src="images/github.jpg" class="logo"></img>
+                     Github
+                </a>
+                <a class = "loc" href="https://www.linkedin.com/in/hpanwar/" style="text-decoration:none ;">
+                    <img src="images/linkedin.jpg" class="logo"></img>
+                     LinkedIn
+                </a>
+            </div>
+        </div>
+        <div class="rest">
+            <div class="content">
+                <div style="padding-top:5% ; padding-bottom: 5%;">
+                    <h1 style="margin-left:5% ;"> Experience</h1>
+                    <h4 style="margin-left:5% ; margin-top: 2%; margin-right:5%; "> Undergraduate Reserch Assistant — <em>Strong Thermal Emission Velocity Enhancement (S.T.E.V.E.)</em></h4>
+                    <h7 style="margin-left:5% ; "> 2022 - Present</h7>
+                    <div style="margin-left:5% ; margin-top:2%; margin-right:5%;font-family: 'Courier New', Courier, monospace;">
+                    <ul>
+                        <li>Used the Vires API to retrieve satelite data from the SWARM satelites</li>
+                        <li>Identified patterns in S.T.E.V.E. to create a peak-finding algorithm using scipy module</li>
+                        <li>Analayzed over 60 million data points using peak-finding algorithm</li>
+                        <li>Created a geographic model for identified peaks using folium module</li>
+                        <li>Streamlined conversions from dataframes to excel files using openpyxl module</li>
+                    </ul>
+                    <hr>
+                    </div>
+                    
+                    <h4 style="margin-left:5% ; margin-top: 2%; margin-right:5%; "> Web Developer — <em>Lyra Stem</em></h4>
+                    <h7 style="margin-left:5% ; "> 2021 - Present</h7>
+                    <div style="margin-left:5% ; margin-top:2%; margin-right:5%;font-family: 'Courier New', Courier, monospace;">
+                    <ul>
+                        <li>Built, deployed, and maintained full website through Wix</li>
+                        <li>Implemented custom components through HTML and CSS</li>
+                    </ul>
+                    <hr>
+                    </div>
+                    <h4 style="margin-left:5% ; margin-top: 2%; margin-right:5%; "> Undergraduate Reserch Assistant — <em>Physics Informed Neural Network (P.I.N.N.)</em></h4>
+                    <h7 style="margin-left:5% ; "> 2021 - 2022</h7>
+                    <div style="margin-left:5% ; margin-top:2%; margin-right:5%;font-family: 'Courier New', Courier, monospace;">
+                    <ul>
+                        <li>Participated in research with Dr. Afkhami to incorporate physics into a neural network model</li>
+                        <li>Worked with Slurm Workload Manager, Bash, and AFS to run model on NJIT high performance computing clusters</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="content">
+                <div style="padding-top:5% ; padding-bottom: 5%;">
+                    <div style="width: 90%; margin-left:5%;">
+                        <h1> Skills</h1>
+                        <div style="background-color: white; padding-top: 1vw; padding-bottom:2vw;  border-radius: .35vw; margin-right:1vw;" >
+                                <div class = "lang">Java</div>
+                                <div class="progress" >
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> Very Proficient</div>
+                                </div>
+                                <div class = "lang">Python</div>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Very Proficient</div>
+                              </div>
+                              <div class = "lang">SQL</div>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Proficient</div>
+                              </div>
+                              <div class = "lang">C++</div>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Comfortable</div>
+                              </div>
+                              <div class = "lang">HTML/CSS</div>
+                              <div class="progress" style="margin-bottom: 0;">
+                                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Comfortable</div>
+                              </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
