@@ -8,163 +8,69 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Harsh's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-    <div class="header" style="margin-top:0 ;">
-        Harsh Panwar
-    </div>
-    <nav class="nav nav-pills nav-fill" style="background-color:#0D6EFD ; font-size : 2vw;">
-        <a class="nav-link" href = "#top" aria-current="page" href="#">Intro</a>
-        <a class="nav-link" href="#background">Background</a>
-        <a class="nav-link" href="#proj">Projects</a>
-        <a class="nav-link" href="#exp">Experience</a>
-        <a class="nav-link" href="#skills">Skills</a>
-        <a class="nav-link" style="width:20%;" href="#footer-head">Contact Me</a>
+    <nav class="navbar navbar-expand-lg" style="background-color: #f5f5f5;" >
+        <div class="container-fluid" style="background-color:#f5f5f5;">
+          <a class="navbar-brand" style= "font-size: 3vw; display: flex; justify-content: center; color: rgb(0, 0, 0); width:25vw;" href="index.html">Harsh Panwar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-body">
+              <a class="nav-link"  href="background.html">Background</a>
+              <a class="nav-link " href="experience.html">Experience</a>
+              <a class="nav-link" href="projects.html">Projects</a>
+              <a class="nav-link" href="Resume.pdf">Resume</a>
+            </div>
+          </div>
+        </div>
     </nav>
-<div id="top">
-    <img src="images/Headshot.jpg"  style="max-width:40%;position:relative; left:2%; margin-top:4%; border-style:solid; display:inline-block; float:left">
-    <div class = "intro">
-        <h1 style="align-self:middle;font-size:3vw">Hi! Welcome to my page!</h1>
-        <p style="font-size: 2vw;"> My name is Harsh Panwar. I am a undergraduate student studying Computer Science and Mathematics. I have a passion for problem solving especially when it comes to 
-                                    combining my two areas of interests. Open to any and all opportunities! Feel free to contact me through email or any other social media!
-        </p>
-    </div>
-</div>  
-<div class="background" id="background">
-    <div style="display: block;">
-        <img src="images/college.png" class="clipart">
-        <div class="info">
-            <h1 style="font-size: 3vw;">Education</h1>
-            <p style="font-size: 2vw;">New Jersey Institute of Technology</p>
-        </div>
-    </div>
-    <div style="display: block;">
-        <img src="images/book.jpg" class="clipart">
-        <div class="info">
-            <h1 style="font-size: 3vw;">Major</h1>
-            <p style="font-size: 2vw;">Computer Science and Applied Mathmatics</p>
-        </div>
-    </div>
-</div>
-<div class="background">
-    <div style="display: block;">
-        <img src="images/clock.jpg" class="clipart">
-        <div class="info">
-            <h1 style="font-size: 3vw;">Hobbies</h1>
-            <p style="font-size: 2vw;">Basketball + Working out</p>
-        </div>
-    </div>
-    <div style="display: block;">
-        <img src="images/avengers.png" class="clipart">
-        <div class="info">
-            <h1 style="font-size: 3vw;">Fun Fact</h1>
-            <p style="font-size: 2vw;">Huge Marvel nerd</p>
-        </div>
-    </div>
-</div>
-<div class = "header" id="proj">Few Of My Projects!</div>
-<div style="display:flex; justify-content: space-evenly; ">
-    <div class="card" style="width: 20%;">
-        <img src="images/earth.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Covid-19 Map</h5>
-        <p class="card-text">Built a visualization for covid cases accross the world</p>
-        <a href="#https://github.com/Harsh-Panwar000/COVID-19-Map.git" class="btn btn-primary">Visit</a>
-        </div>
-    </div>
-    <div class="card" style="width: 20%; clear:both">
-        <img src="images/ball.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Basketball Points</h5>
-        <p class="card-text">Built a webscaper to aggregate a player's career statisitcs</p>
-        <a href="https://github.com/Harsh-Panwar000/mini-projects.git" class="btn btn-primary">Visit</a>
-        </div>
-    </div>
-    <div class="card" style="width: 20%; clear:both">
-        <img src="images/tumor.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Tumor Classifier</h5>
-        <p class="card-text">Classified tumors as malignant or benign given data</p>
-        <a href="https://github.com/Harsh-Panwar000/Tumor-Classifier.git" class="btn btn-primary">Visit</a>
-        </div>
-    </div>
-</div>
-<div style="display:flex; justify-content: flex-start; ">
-    <div style="width:50%; ">
-        <div class = "header" id="exp">Experience</div>
-        <div class="card" style="margin-top: 0; margin-bottom:1vw;">
-            <h5 class="card-header" style="font-size: 1vw;">May 2022 - Present</h5>
-            <div class="card-body">
-              <h5 class="card-title" style="font-size:2vw;">Undergraduate Research Physics</h5>
-              <p class="card-text" style="font-size:1vw;">Conducting research within the Physics Department with Dr. Perry and Dr. Goodwin to analyze data and identify the presence of STEVE ("Strong Thermal Emission Velocity Enhancement")</p>
-              
+    <div class="all">
+        <div class = "sidebar">
+            <div style=" display: flex; justify-content: center;">
+                <img src="images/Headshot.jpg"  class = "headshot"></img>
             </div>
-        </div>
-        <div class="card" >
-            <h5 class="card-header" style="font-size: 1vw;">May 2022 - Present</h5>
-            <div class="card-body">
-              <h5 class="card-title" style="font-size:2vw;">Undergraduate Research Chemistry</h5>
-              <p class="card-text" style="font-size:1vw;">Conducting research within the Chemistry department with Dr. Khalizov.</p>
-              
-            </div>
-        </div>
-        <div class="card" >
-            <h5 class="card-header" style="font-size: 1vw;">Nov 2021 - January 2022</h5>
-            <div class="card-body">
-                <h5 class="card-title" style="font-size:2vw;">Undergraduate Research Mathematics</h5>
-                    <p class="card-text" style="font-size:1vw;">Participated in research on Physics Informed Neural Network with Dr. Afkhami to computationally derive model accuracies</p>
-              
-            </div>
-        </div>
-        
-    </div>
-    <div style="width: 50%;">
-        <div class = "header" id="skills">Skills</div>
-        <div style="background-color: white; padding-top: 1vw; padding-bottom:2vw;  border-radius: .35vw; margin-right:1vw;" >
-                <div class = "lang">Java</div>
-                <div class="progress" >
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> Very Proficient</div>
+            
+            <div class="sidebody">
+                <div class = "loc" style="font-weight:bold ;">Math + CS @ NJIT</div>
+                <div class = "loc">
+                    <img src="images/loc.png" class="logo"></img>
+                     New Jersey, USA
                 </div>
-                <div class = "lang">Python</div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Very Proficient</div>
-              </div>
-              <div class = "lang">SQL</div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Proficient</div>
-              </div>
-              <div class = "lang">C++</div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Comfortable</div>
-              </div>
-              <div class = "lang">HTML/CSS</div>
-              <div class="progress" style="margin-bottom: 0;">
-                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Comfortable</div>
-              </div>
+                <a class = "loc" href="mailto: hp56@njit.edu" style="text-decoration:none ;">
+                    <img src="images/mail.png" class="logo"></img>
+                     hp56@njit.edu
+                </a>
+                <a class = "loc" href="https://www.github.com/Harsh-Panwar000" style="text-decoration:none ;">
+                    <img src="images/github.jpg" class="logo"></img>
+                     Github
+                </a>
+                <a class = "loc" href="https://www.linkedin.com/in/hpanwar/" style="text-decoration:none ;">
+                    <img src="images/linkedin.jpg" class="logo"></img>
+                     LinkedIn
+                </a>
+            </div>
         </div>
-        
-    </div>
-</div>
-<div style="width:100% ; background-color:#0D6EFD; margin-top:1vw;">
-    <div id="footer-head">
-        Contact Me
-    </div>
-    <div style="display: flex;justify-content: space-around;">
-        <div id="email">
-            Email: hp56@njit.edu
-        </div>
-        <a href="https://www.linkedin.com/in/hpanwar/" class="btn btn-primary" style="margin-left: 2.3vw;
-        padding-top: 1vw;">Click for LinkedIn</a>
-        <a href="https://www.github.com/Harsh-Panwar000" class="btn btn-primary" tyle="margin-left: 2.3vw;
-        padding-top: 1vw;">Click for GitHub</a>
+        <div class="rest">
+            <div class="content" >
+                <div style="padding-top:5% ; padding-bottom: 5%;">
+                    <h1 style="margin-left:5% ;"> About me</h1>
+                    <p style="margin-left:5% ; margin-top:5%; margin-right:5%;font-family: 'Courier New', Courier, monospace;">My name is Harsh Panwar. I am a undergraduate student studying Computer Science and Mathematics. I have a passion for problem solving especially when it comes to combining my two areas of interests.</p>
+                    <p style="margin-left:5% ; margin-top:5%; margin-right:5%;font-family: 'Courier New', Courier, monospace;">I am currently seeking internships in Software Engineering and/or Fintech, however all opportunities are appreciated!</p>
+                    <p style="margin-left:5% ; margin-top:5%; margin-right:5%;font-family: 'Courier New', Courier, monospace;">Feel free to take a look around and do not hesitate to contact me with any questions - or if you just want to chat. I am always open to have a good conversation.</p>
+                    <p style="margin-left:5% ; margin-top:5%; margin-right:5%;font-family: 'Courier New', Courier, monospace;">Reach out via any of my linked socials!</p>
 
+                </div>
+                
+            </div>
+            
+    
+        </div>
     </div>
     
-    
-</div>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
-
