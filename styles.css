@@ -1,19 +1,18 @@
 .navbar{
     height:8vh;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 2vh;
     background-color: white;
 }
 
 .nav-link{
-    color: rgb(77, 76, 76);
-    font-size:3vh;
+     color: rgb(77, 76, 76);
+    font-size:2vh;
+    padding-top:2vh;
     margin-right: 1vw;
     margin-left: 1vw;
     margin-bottom: 2vh;
     margin-top: 2vh;
-    font-weight:bold;
-    padding-top:2vh;
+    font-weight: bold;
 }
 
 .sidebar{
